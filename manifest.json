@@ -1,0 +1,20 @@
+{  
+  "name": "__MSG_optlw_name__",
+  "version": "0.9.0",  
+  "manifest_version": 2,
+  "default_locale": "zh_CN",
+  "description": "__MSG_optlw_description__",  
+  "browser_action": {  
+    "default_icon": "icons/icon.png" ,
+    "default_title": "__MSG_optlw_name__"
+  },
+     "icons": {
+      "128": "icons/icon_128.png",
+      "16": "icons/icon_16.png",
+      "48": "icons/icon_48.png"
+   },
+  "background":{
+  	"scripts":["background.js"]
+  },
+  "permissions": ["tabs","storage"]
+} 
